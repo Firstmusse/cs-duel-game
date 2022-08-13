@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: "ChixaDemiBold"; 
+    font-family: "Retro-Gaming"; 
     letter-spacing: 2px;
     -moz-user-select: none;
     -khtml-user-select: none;
@@ -15,8 +15,8 @@ body{
 }
 
 @font-face {
-    font-family: "ChixaDemiBold"; 
-    src: url("../fonts/ChixaDemiBold.ttf") format("truetype"); 
+    font-family: "Retro-Gaming"; 
+    src: url("../fonts/Retro-Gaming.ttf") format("truetype"); 
 
 }
 .container{
