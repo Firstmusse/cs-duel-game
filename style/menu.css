@@ -44,6 +44,8 @@
     height: 150px;
     margin: 14px;
     cursor: pointer;
+    position: relative;
+    border: 1px solid transparent;
 }
 .map-item:hover{
     border: 1px solid rgb(253, 255, 122);
