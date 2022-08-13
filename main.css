@@ -19,7 +19,13 @@ body{
     src: url("../fonts/Retro-Gaming.ttf") format("truetype"); 
 
 }
+
+:root {
+    --green-color: #222;
+}
+
 .container{
     width: 96%;
     margin: 0 auto;
+    background-color: var(--green-color);
 }

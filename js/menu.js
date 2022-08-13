@@ -14,3 +14,16 @@ function openMenuContainer(){
 function closeMapContainer(){
     mapContainer.style = 'display:none'
 }
+
+let tabs = document.querySelectorAll('.tabs a')
+let tabsContent = document.querySelectorAll('.tabs-content__block')
+for (let tab of tabs) {
+	tab.onclick = function (e) {
+		e.preventDefault()
+		let setTab = document.getElementById(this.dataset.tabs)
+		for (let content of tabsContent) {
+			content.style.display = 'none'
+		}
+		setTab.style.display = 'block'
+	}
+}
